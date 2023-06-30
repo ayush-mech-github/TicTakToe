@@ -1,0 +1,85 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.gameContainer {
+    background-color: yellow;
+    justify-content: center;
+    display: flex;
+    color: red;
+    
+}
+
+.container {
+    margin-top: 10px;
+    color: red;
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    font-size: 60px;
+    text-align: center;
+}
+
+.box {
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.box :hover {
+    background-color: lightblue;
+}
+
+.imgBox img {
+    display: none;
+}
+
+.bt-0 {
+    border-top: 0;
+    border-left: 0;
+}
+.bt-1 {
+    border-top: 0;
+}
+.bt-2 {
+    border-top: 0;
+    border-right: 0;
+}
+.bt-3 { 
+    border-left: 0;
+}
+.bt-4 {
+
+    border-right: 0;
+}
+.bt-6 {
+    border-left: 0;
+    border-bottom: 0;
+}
+.bt-7 {
+    border-bottom: 0;
+}
+.bt-8 {
+    border-right: 0;
+    border-bottom: 0;
+}
+#resetBtn{
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 10px 40px ;
+    font-size: 20px;
+    margin-left: 250px;
+    background-color: rgb(135, 183, 135);
+    border-color: black;
+}
